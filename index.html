@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Органайзер Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="container">
+    <h2>Органайзер Online<br>by © Strawberry.inc🍓</h2>
+    <div class="clock">
+      <div>
+        <span id="hour">00</span>
+        <br>
+        <span class="text">Часов</span>
+      </div>
+      <div>
+        <span id="minutes">00</span>
+        <br>
+        <span class="text">Минут</span>
+      </div>
+      <div>
+        <span id="seconds">00</span>
+        <br>
+        <span class="text">Секунд</span>
+      </div>
+      <div>
+        <span id="ampm">AM</span>
+      </div>
+    </div>
+    <div class="calendar-container">
+        <p class="month-name" id="month-name">Сентябрь</p>
+        <p class="day-name" id="day-name">Вторник</p>
+        <p class="day-number" id="day-number">27</p>
+        <p class="year" id="year">2022</p>
+    </div>
+      <form class="form">
+        <input type="text" class="input" placeholder="Создать заметку..." autocomplete="off"/>
+        <ul class="list"></ul>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
